@@ -16,4 +16,9 @@ public class cart implements Serializable {
     private Float price;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date createdate;
+	
+    public void add(){
+        System.out.println("hello");
+    }
 }
+ 
