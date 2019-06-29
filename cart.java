@@ -12,6 +12,7 @@ import java.util.Date;
 public class cart implements Serializable {
     private Integer id;
     private String name;
+	//this is edit**************************************
     private Float price;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date createdate;
